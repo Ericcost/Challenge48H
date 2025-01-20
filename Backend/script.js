@@ -2,23 +2,22 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-app.get("/", (req, res) => {
-	res.send("Backend is running!");
-});
-
 app.post("/api/voice", (req, res) => {
-	const userInput = req.body.text;
+	const userInput = req.body.text.toLowerCase(); // Texte envoyé par le frontend
 
-	// Logique ou appel API tiers
-	const reply = processInput(userInput);
+	// Logique simple
+	let reply;
+	if (userInput.includes("bonjour")) {
+		reply = "Bonjour ! Comment puis-je vous aider ?";
+	} else if (userInput.includes("heure")) {
+		reply = `Il est ${new Date().toLocaleTimeString()}`;
+	} else {
+		reply = "Je ne suis pas sûr de comprendre.";
+	}
 
+	// Réponse au frontend
 	res.json({ reply });
 });
 
-const processInput = (input) => {
-	// Exemple de logique simple
-	if (input.includes("hello")) return "Hi there!";
-	return "I did not understand that.";
-};
-
-app.listen(3000, () => console.log("Server is running on port 3000"));
+// Lancement du serveur
+app.listen(3000, () => console.log("Backend actif sur http://localhost:3000"));
