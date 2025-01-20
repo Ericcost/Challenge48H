@@ -2,14 +2,17 @@
 <html>
 	<head>
 		<title>Assistant vocal</title>
+		<!-- STYLE -->
 		<link rel="stylesheet" type="text/css" href="styles.css" />
-		<script src="script.js" defer></script>
+
+		<!-- SCRIPT -->
+		<script type="module" src="script.js" defer></script>
 	</head>
 	<body>
 		<h1>Assistant Vocal</h1>
-		<button id="start-button">🎙️ Démarrer l'écoute</button>
-		<button id="stop-button">🛑 Arrêter l'écoute</button>
+		<button id="start-button" class="start-button">🎙️ Démarrer l'écoute</button>
+		<button id="stop-button" class="stop-button">🛑 Arrêter l'écoute</button>
 		<div id="transcription">🎤 Texte reconnu : <span id="text"></span></div>
-		<div id="response">🤖 Réponse : <span id="reply"></span></div>
+		<!-- <div id="response">🤖 Réponse : <span id="reply"></span></div> -->
 	</body>
 </html>
