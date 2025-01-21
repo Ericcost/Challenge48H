@@ -1,0 +1,101 @@
+id,user_id,query_text,response_text,action_link,session_duration,interaction_time,location,tags,hour,day
+198,18165178,Give me a weather forecast for this weekend,Email sent successfully,Email,112,2025-01-20 20:07:30.211883,Paris,"a weather forecast, this weekend, give, me, weather, weekend, forecast",20,20
+307,05338531,Play an audiobook,Email sent successfully,Weather,90,2025-01-20 20:32:30.217523,New York,"an audiobook, audiobook, play",20,20
+101,18413112,What’s the best pizza place in town?,Playing music...,Email,81,2025-01-20 18:13:30.221922,Tokyo,"town, the best pizza place, place, pizza, what, ’s",18,20
+416,95442175,Turn on the lights,It’s 10 AM,Music,193,2025-01-20 05:54:30.227694,New York,"the lights, lights, turn",5,20
+782,01165031,What’s the best pizza place in town?,Playing music...,Email,76,2025-01-20 10:18:30.232898,London,"town, the best pizza place, place, pizza, what, ’s",10,20
+971,01165031,Translate this to Spanish,It’s 10 AM,Weather,238,2025-01-20 09:52:30.237884,Tokyo,"this, translate, spanish",9,20
+416,05338531,Remind me to take the trash out,Reminder set,Music,81,2025-01-20 23:48:30.241995,Paris,"the trash, take, remind, me, trash",23,20
+838,01165031,Turn on the lights,Weather is sunny,Music,60,2025-01-20 10:11:30.246129,Paris,"the lights, lights, turn",10,20
+460,94542455,Order a pizza,Playing music...,Weather,102,2025-01-20 21:18:30.249590,Berlin,"pizza, order, a pizza",21,20
+665,18413112,Send me a shopping list,Weather is sunny,Music,169,2025-01-20 04:30:30.253067,New York,"send, shopping, a shopping list, me, list",4,20
+891,01165031,Set a meeting with Sarah,Reminder set,Email,129,2025-01-20 22:48:30.257166,New York,"meeting, sarah, set, a meeting",22,20
+535,01165031,How long will it take to get to work?,Reminder set,Music,278,2025-01-20 22:53:30.260877,Paris,"take, it, get, work",22,20
+48,01165031,Give me a brief of today’s news,Reminder set,Weather,196,2025-01-20 17:11:30.264934,Berlin,"a brief, news, brief, give, me, today’s news, today",17,20
+574,18165178,Send a text message,Email sent successfully,Email,166,2025-01-20 08:42:30.269218,New York,"send, a text message, message, text",8,20
+583,01165031,How long will it take to get to work?,Email sent successfully,Weather,149,2025-01-20 17:42:30.273327,Berlin,"take, it, get, work",17,20
+233,95442175,Give me a fun fact,Playing music...,Weather,148,2025-01-20 22:10:30.277696,New York,"give, me, fact, a fun fact",22,20
+255,05338531,Send email,Playing music...,Music,188,2025-01-20 02:18:30.282225,London,"send, email",2,20
+3,78123049,What’s the traffic like on my way home?,Reminder set,Weather,145,2025-01-20 16:34:30.286183,Berlin,"my way, way, the traffic, what, traffic",16,20
+235,78123049,Play classical music,It’s 10 AM,Weather,203,2025-01-20 21:50:30.290989,Paris,"play, classical music, music",21,20
+232,94542455,When is my next meeting?,It’s 10 AM,Music,198,2025-01-20 09:42:30.294672,Berlin,"meeting, my next meeting",9,20
+868,09093198,How long will it take to get to work?,Playing music...,Weather,168,2025-01-20 19:29:30.298321,Paris,"take, it, get, work",19,20
+406,01165031,Send me a shopping list,Email sent successfully,Weather,34,2025-01-20 15:05:30.302200,Paris,"send, shopping, a shopping list, me, list",15,20
+519,18413112,Give me a fun fact,It’s 10 AM,Music,56,2025-01-20 10:25:30.305704,New York,"give, me, fact, a fun fact",10,20
+382,01165031,What’s the stock price of Tesla?,Email sent successfully,Weather,36,2025-01-21 00:07:30.309138,London,"stock, the stock price, what, price, tesla, ’s",0,21
+373,05338531,Give me a brief of today’s news,Playing music...,Email,30,2025-01-20 02:23:30.313005,New York,"a brief, news, brief, give, me, today’s news, today",2,20
+728,05338531,What’s the weather forecast for next week?,It’s 10 AM,Email,291,2025-01-20 22:11:30.316674,Paris,"next week, weather, what, forecast, week",22,20
+338,94542455,Play my favorite playlist,Email sent successfully,Music,231,2025-01-20 22:52:30.320478,Tokyo,"play, my favorite playlist, playlist",22,20
+422,95442175,Tell me a joke,It’s 10 AM,Email,89,2025-01-20 18:21:30.323803,Paris,"me, tell, joke, a joke",18,20
+163,34501622,Play some jazz music,Playing music...,Email,261,2025-01-20 23:44:30.327498,Berlin,"play, music, some jazz music, jazz",23,20
+902,54175147,Set an alarm,Weather is sunny,Email,163,2025-01-20 18:54:30.330879,Tokyo,"an alarm, alarm, set",18,20
+44,18413112,Send email,Playing music...,Music,226,2025-01-20 23:52:30.334224,Paris,"send, email",23,20
+345,01165031,What’s the date today?,Weather is sunny,Email,119,2025-01-20 14:00:30.337378,Berlin,"date, the date, today, what, ’s",14,20
+591,01165031,How’s the air quality today?,Weather is sunny,Weather,62,2025-01-20 14:41:30.340991,Paris,"air, the air quality, quality, today",14,20
+439,95442175,Make a reservation at a restaurant,Weather is sunny,Email,81,2025-01-20 01:17:30.344780,Paris,"make, a reservation, restaurant, a restaurant, reservation",1,20
+48,18165178,Play classical music,It’s 10 AM,Weather,145,2025-01-20 17:01:30.348686,New York,"play, classical music, music",17,20
+427,54175147,Play music,Playing music...,Weather,67,2025-01-20 02:32:30.351995,Paris,"play, music",2,20
+302,54175147,Call someone,It’s 10 AM,Email,94,2025-01-20 15:38:30.355377,Paris,"someone, call",15,20
+368,18413112,Send a reminder to call the bank,It’s 10 AM,Email,251,2025-01-20 23:27:30.358754,New York,"send, call, reminder, the bank, bank, a reminder",23,20
+560,09093198,Find nearby restaurants,Reminder set,Email,138,2025-01-20 04:17:30.362528,Berlin,"nearby restaurants, find, restaurants",4,20
+924,34501622,When is my next meeting?,Weather is sunny,Music,221,2025-01-20 04:51:30.366499,London,"meeting, my next meeting",4,20
+23,09093198,Order a taxi,It’s 10 AM,Weather,189,2025-01-20 15:39:30.369988,New York,"a taxi, taxi, order",15,20
+527,78123049,How’s the air quality today?,Playing music...,Music,118,2025-01-20 12:04:30.373393,New York,"air, the air quality, quality, today",12,20
+56,54175147,Check my bank balance,Reminder set,Music,57,2025-01-20 09:53:30.377144,Tokyo,"balance, check, bank, my bank balance",9,20
+765,05338531,What’s the population of Brazil?,It’s 10 AM,Music,74,2025-01-20 00:59:30.380621,Paris,"brazil, the population, what, population, ’s",0,20
+948,54175147,Send me a shopping list,Weather is sunny,Email,54,2025-01-20 08:08:30.384368,Paris,"send, shopping, a shopping list, me, list",8,20
+741,05338531,Give me the latest weather report for London,It’s 10 AM,Music,187,2025-01-20 21:06:30.387787,New York,"the latest weather report, report, give, me, weather, london",21,20
+750,94542455,What’s the stock market doing?,It’s 10 AM,Music,68,2025-01-20 00:44:30.391913,Tokyo,"stock, market, what, doing, the stock market",0,20
+663,34501622,Play a podcast,Email sent successfully,Music,258,2025-01-20 09:46:30.396208,New York,"play, podcast, a podcast",9,20
+270,34501622,What time is it in Paris?,Email sent successfully,Email,210,2025-01-20 10:18:30.399588,London,"paris, it, time, what time",10,20
+72,94542455,What’s my schedule for today?,Weather is sunny,Music,128,2025-01-20 20:00:30.403366,Paris,"schedule, my schedule, today, what, ’s",20,20
+261,95442175,What is the news today?,Weather is sunny,Music,57,2025-01-20 21:10:30.407063,Berlin,"the news, what, news, today",21,20
+655,05338531,Send a gift to my friend,Email sent successfully,Music,82,2025-01-20 20:46:30.410547,London,"send, my friend, a gift, gift, friend",20,20
+515,54175147,Where is my package?,Weather is sunny,Music,266,2025-01-20 12:40:30.414074,London,"package, my package",12,20
+466,18413112,What’s the latest football score?,It’s 10 AM,Music,63,2025-01-20 09:41:30.419547,Paris,"the latest football score, football, score, what, ’s",9,20
+768,05338531,Remind me to take the trash out,Email sent successfully,Music,128,2025-01-20 15:52:30.423346,London,"the trash, take, remind, me, trash",15,20
+166,01165031,Play some jazz music,Email sent successfully,Weather,223,2025-01-20 07:04:30.427008,London,"play, music, some jazz music, jazz",7,20
+540,18413112,Give me a fun fact,Playing music...,Weather,250,2025-01-20 05:08:30.430280,London,"give, me, fact, a fun fact",5,20
+956,95442175,Get directions to the airport,Playing music...,Weather,247,2025-01-20 01:13:30.433614,London,"directions, airport, get, the airport",1,20
+27,05338531,What’s the weather forecast for next week?,It’s 10 AM,Music,263,2025-01-20 09:58:30.437716,London,"next week, weather, what, forecast, week",9,20
+32,05338531,What’s the best pizza place in town?,Reminder set,Email,108,2025-01-20 11:33:30.441940,New York,"town, the best pizza place, place, pizza, what, ’s",11,20
+154,18165178,Play my favorite playlist,Playing music...,Weather,249,2025-01-20 09:50:30.445946,Berlin,"play, my favorite playlist, playlist",9,20
+265,34501622,What’s the temperature in Tokyo?,Weather is sunny,Weather,255,2025-01-20 20:17:30.449223,Tokyo,"tokyo, the temperature, temperature, what, ’s",20,20
+566,01165031,Find a good movie to watch,Reminder set,Music,71,2025-01-20 06:15:30.452948,London,"movie, find, watch, a good movie",6,20
+558,54175147,Check my bank balance,Playing music...,Email,179,2025-01-20 00:49:30.456692,London,"balance, check, bank, my bank balance",0,20
+1000,18413112,Give me a brief of today’s news,Email sent successfully,Email,206,2025-01-20 15:34:30.459898,Tokyo,"a brief, news, brief, give, me, today’s news, today",15,20
+880,18413112,What time is it in Paris?,Email sent successfully,Weather,146,2025-01-20 16:30:30.463526,Berlin,"paris, it, time, what time",16,20
+884,09093198,Set a meeting with Sarah,Playing music...,Weather,49,2025-01-20 15:52:30.467603,Tokyo,"meeting, sarah, set, a meeting",15,20
+435,18413112,Find a good movie to watch,Reminder set,Email,202,2025-01-20 12:16:30.471090,Paris,"movie, find, watch, a good movie",12,20
+628,18413112,What is the news today?,Playing music...,Music,274,2025-01-20 08:11:30.474494,Paris,"the news, what, news, today",8,20
+710,95442175,Where can I buy a new laptop?,It’s 10 AM,Music,220,2025-01-20 15:41:30.477888,Paris,"i, buy, laptop, a new laptop",15,20
+722,34501622,Give me the latest weather report for London,Email sent successfully,Weather,248,2025-01-20 08:36:30.481657,New York,"the latest weather report, report, give, me, weather, london",8,20
+110,09093198,What is the news today?,Playing music...,Email,132,2025-01-20 15:03:30.485357,Paris,"the news, what, news, today",15,20
+898,94542455,Play some relaxing music,Reminder set,Music,293,2025-01-20 09:34:30.489047,Paris,"play, music, some relaxing music, relaxing",9,20
+319,09093198,Set reminder,Email sent successfully,Email,38,2025-01-20 04:44:30.492559,Tokyo,"set reminder, reminder",4,20
+137,05338531,Send a gift to my friend,It’s 10 AM,Email,253,2025-01-20 01:27:30.495717,New York,"send, my friend, a gift, gift, friend",1,20
+458,09093198,"How do I say ""thank you"" in French?",Email sent successfully,Email,75,2025-01-20 07:06:30.499092,Paris,"thank, you, i, say, french",7,20
+534,78123049,How do I get to work?,Email sent successfully,Email,98,2025-01-20 05:27:30.503188,Paris,"i, work, get",5,20
+629,05338531,Set a birthday reminder for my friend,Playing music...,Weather,155,2025-01-20 09:06:30.506748,London,"my friend, set, a birthday reminder, reminder, friend, birthday",9,20
+664,78123049,Send a gift to my friend,Playing music...,Weather,184,2025-01-20 09:22:30.510422,Paris,"send, my friend, a gift, gift, friend",9,20
+189,09093198,What’s the best pizza place in town?,Reminder set,Weather,112,2025-01-20 21:27:30.514161,New York,"town, the best pizza place, place, pizza, what, ’s",21,20
+785,01165031,Turn on the lights,Email sent successfully,Weather,247,2025-01-20 01:36:30.518059,London,"the lights, lights, turn",1,20
+636,95442175,What’s the best pizza place in town?,Weather is sunny,Music,115,2025-01-20 06:28:30.521302,Paris,"town, the best pizza place, place, pizza, what, ’s",6,20
+925,18165178,How do I get to work?,It’s 10 AM,Music,246,2025-01-20 22:55:30.525177,London,"i, work, get",22,20
+823,01165031,Play some relaxing music,Email sent successfully,Email,114,2025-01-20 01:30:30.529175,Berlin,"play, music, some relaxing music, relaxing",1,20
+932,54175147,Show me my fitness progress,Weather is sunny,Music,170,2025-01-20 07:34:30.532441,New York,"progress, show, me, my fitness progress, fitness",7,20
+559,54175147,Order a pizza,Weather is sunny,Weather,67,2025-01-20 05:15:30.536389,Berlin,"pizza, order, a pizza",5,20
+143,95442175,Show me my fitness progress,Email sent successfully,Music,257,2025-01-20 21:36:30.539642,Tokyo,"progress, show, me, my fitness progress, fitness",21,20
+365,54175147,Show me my calendar,Weather is sunny,Email,230,2025-01-20 21:56:30.543026,London,"my calendar, me, show, calendar",21,20
+988,94542455,Order a pizza,Playing music...,Email,213,2025-01-20 05:49:30.546331,Berlin,"pizza, order, a pizza",5,20
+687,01165031,Find a good movie to watch,Reminder set,Music,221,2025-01-20 13:57:30.549602,Berlin,"movie, find, watch, a good movie",13,20
+728,34501622,Send a gift to my friend,Weather is sunny,Email,185,2025-01-20 14:55:30.553334,Tokyo,"send, my friend, a gift, gift, friend",14,20
+400,54175147,Play classical music,Email sent successfully,Weather,283,2025-01-20 15:44:30.556966,London,"play, classical music, music",15,20
+526,18165178,Play classical music,It’s 10 AM,Email,261,2025-01-20 20:10:30.560466,Paris,"play, classical music, music",20,20
+79,18165178,When is my next meeting?,Weather is sunny,Music,296,2025-01-20 18:24:30.563881,London,"meeting, my next meeting",18,20
+814,01165031,Send a reminder to call the bank,Reminder set,Weather,187,2025-01-20 11:33:30.567305,Paris,"send, call, reminder, the bank, bank, a reminder",11,20
+227,09093198,Play an audiobook,Email sent successfully,Music,265,2025-01-20 13:26:30.570852,Berlin,"an audiobook, audiobook, play",13,20
+275,05338531,Send a text message,Weather is sunny,Music,123,2025-01-20 08:03:30.574092,New York,"send, a text message, message, text",8,20
+153,09093198,Send a text message,Weather is sunny,Music,87,2025-01-20 23:10:30.577569,New York,"send, a text message, message, text",23,20
+866,09093198,What is the news today?,Email sent successfully,Music,226,2025-01-20 17:16:30.581506,Berlin,"the news, what, news, today",17,20
+942,18413112,Play a random song,Weather is sunny,Weather,41,2025-01-20 21:47:30.585066,London,"play, a random song, song",21,20
