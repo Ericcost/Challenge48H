@@ -2,8 +2,14 @@ body {
 	font-family: Arial, sans-serif;
 	text-align: center;
 	margin: 50px;
-	background-color: #ededed;
+	background-color: #e8e5db;
 }
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 40px;
+}
+
 button {
 	padding: 15px 25px;
 	font-size: 18px;
@@ -16,22 +22,40 @@ button {
 	background-color: #b9cfbd;
 }
 .start-button:active {
-	animation: zoom 0.3s forwards;
-}
-
-@keyframes zoom {
-	0% {
-		transform: scale(1);
-	}
-	100% {
-		transform: scale(1.1);
-	}
+	transition: background-color 0.3s, border-color 0.3s;
 }
 
 .stop-button {
 	background-color: #f6cabe;
 }
+
 #transcription,
 #response {
-	margin-top: 20px;
+	background-color: #dadada;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 20px;
+	width: fit-content; /* Ajuste automatiquement la largeur */
+	max-width: 100%; /* Empêche de dépasser la largeur parent */
+}
+
+/* Animation du bouton d'écoute */
+.start-button:active {
+	background-color: #ddd;
+}
+
+.start-button.active {
+	animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.5);
+	}
+	70% {
+		box-shadow: 0 0 0 10px rgba(76, 175, 80, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+	}
 }

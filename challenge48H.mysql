@@ -1,0 +1,99 @@
+-- CREATE DATABASE vocal_assistant;
+-- USE vocal_assisant;
+
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE UserVoiceQueries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    query_text TEXT NOT NULL, -- User's query
+    response_text TEXT, -- Assistant's response
+    action_link ENUM('Music', 'Email', 'Weather') NOT NULL, 
+    session_duration INT, -- Duration in seconds
+    interaction_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    location VARCHAR(255), -- User's location
+    tags TEXT, -- Comma-separated tags linked to the query
+    FOREIGN KEY (user_id) REFERENCES Users(id)
+);
+
+CREATE TABLE Feedback (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    query_id INT NOT NULL,
+    rating TINYINT NOT NULL CHECK (rating BETWEEN 1 AND 5),  -- Rating between 1 and 5
+    feedback_text TEXT,  -- Additional feedback/comments from the user
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- Timestamp for when feedback was given
+    FOREIGN KEY (user_id) REFERENCES Users(id),  -- Link to the Users table
+    FOREIGN KEY (query_id) REFERENCES UserVoiceQueries(id)  -- Link to the UserVoiceQueries table
+);
+
+CREATE TABLE MusicData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    song_title VARCHAR(255) NOT NULL,
+    artist VARCHAR(255),
+    album VARCHAR(255),
+    genre VARCHAR(100),
+    play_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id)
+);
+
+CREATE TABLE EmailData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    email_subject VARCHAR(255) NOT NULL,
+    email_body TEXT,
+    sent_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id)
+);
+
+CREATE TABLE WeatherData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    temperature DECIMAL(5, 2),
+    humidity DECIMAL(5, 2),
+    condition VARCHAR(100),
+    report_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id)
+); 
+
+--INSERT INTO Users (username, email)
+--VALUES 
+--    ('user1', 'user1@example.com'),
+--    ('user2', 'user2@example.com');
+
+--INSERT INTO UserVoiceQueries (user_id, query_text, response_text, action_link, session_duration, location)
+--VALUES 
+--    (1, 'What is the weather like today?', 'It is sunny with a high of 25°C', 'Weather', 120, 'New York'),
+--    (2, 'Play some music', 'Playing rock music', 'Music', 200, 'Los Angeles');
+
+--INSERT INTO Feedback (user_id, query_id, rating, feedback_text)
+--VALUES 
+--    (1, 1, 5, 'The weather update was very accurate and timely.'),
+--    (2, 2, 4, 'Music selection was great but could be more varied.');
+
+--INSERT INTO MusicData (user_id, song_title, artist, album, genre)
+--VALUES 
+--    (2, 'Hotel California', 'Eagles', 'Hotel California', 'Rock'),
+--    (2, 'Bohemian Rhapsody', 'Queen', 'A Night at the Opera', 'Rock');
+
+--INSERT INTO EmailData (user_id, email_subject, email_body)
+--VALUES 
+--    (1, 'Meeting Reminder', 'Don\'t forget about the 3 PM meeting today.'),
+--    (2, 'Offer Notification', 'You have received a new special offer!');
+
+--INSERT INTO WeatherData (user_id, location, temperature, humidity, condition)
+--VALUES 
+--    (1, 'New York', 25.00, 60.00, 'Sunny'),
+--    (2, 'Los Angeles', 22.00, 65.00, 'Partly Cloudy');
+
+
+
+
+

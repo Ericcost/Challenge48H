@@ -8,8 +8,10 @@ export function handleMail(command) {
 		command.includes("envoyer") ||
 		command.includes("envoie")
 	) {
-		alert("Le mail va s'ouvrir !");
-		openGmail();
+		setTimeout(() => {
+			openGmail();
+			return;
+		}, 1000);
 
 		// Commande pour fermer le navigateur
 	} else if (
@@ -18,7 +20,7 @@ export function handleMail(command) {
 		command.includes("éteindre") ||
 		command.includes("éteint")
 	) {
-		alert("Le mail va se fermer !");
+		// alert("Le mail va se fermer !");
 		window.close();
 	}
 }

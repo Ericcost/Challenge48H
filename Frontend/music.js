@@ -1,48 +1,36 @@
-const client_id = "a92a4ceb98674ff4bd841d20a7cfa77b";
-const client_secret = "55e95fc961e84a58a1452fa18344f054";
-const redirect_uri = "http://localhost:8080/access-spotify";
-
-const app = require("express");
-
-app.get("/login", function (req, res) {
-	var state = generateRandomString(16);
-	var scope = "user-read-private user-read-email  user-library-read";
-
-	res.redirect(
-		"https://accounts.spotify.com/authorize?" +
-			querystring.stringify({
-				response_type: "code",
-				client_id: client_id,
-				scope: scope,
-				redirect_uri: redirect_uri,
-				state: "state",
-			})
-	);
-});
-
+// Fonction pour gérer les commandes musicales
 export function handleMusic(command) {
 	if (
-		command.includes("lancer") ||
 		command.includes("lance") ||
+		command.includes("lancer") ||
 		command.includes("jouer") ||
-		command.includes("joue")
+		command.includes("joue") ||
+		command.includes("mets") ||
+		command.includes("mettre")
 	) {
 		if (command.includes("rock")) {
 			alert("Lancement d'une playlist Rock !");
-			const spotifyPlaylistUrl =
-				"https://open.spotify.com/playlist/37i9dQZF1DWWSuZL7uNdVA?si=6e488143a66e4834";
-			window.open(spotifyPlaylistUrl, "_blank");
+			playSpotifyPlaylist("37i9dQZF1DWWSuZL7uNdVA");
+			return;
 		} else if (command.includes("jazz")) {
 			alert("Lancement d'une playlist Jazz !");
-			const spotifyPlaylistUrl =
-				"https://open.spotify.com/playlist/{playlist_id}";
-			window.open(spotifyPlaylistUrl, "_blank");
+			playSpotifyPlaylist("37i9dQZF1DXbITWG1ZJKYt");
+			return;
 		} else {
-			alert("Lancement d'une chanson par défaut !");
-			const spotifyTrackUrl = "https://open.spotify.com";
-			window.open(spotifyTrackUrl, "_blank");
+			alert("Lecture de musique par défaut !");
+			window.open(
+				`https://open.spotify.com/intl-fr/album/0KGBW1MQtC2aFPCDUdAkdJ?si=8kO0jtx-REC4fF0E-I9KFw`,
+				"_blank"
+			);
+			return;
 		}
 	} else {
-		alert("Commande inconnue.");
+		alert("Commande musicale inconnue.");
+		return;
 	}
+}
+
+// Fonction pour lancer une playlist Spotify via l'API backend
+function playSpotifyPlaylist(playlistId) {
+	window.open(`https://open.spotify.com/playlist/${playlistId}`, "_blank");
 }
